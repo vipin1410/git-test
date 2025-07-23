@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+body{
+    background-color: #f3eaae;
+    /* font-family: Arial, sans-serif; */
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    height:100vh;
+    width:100vw;
+    overflow:auto;
+
+}
+
+.container{
+    margin-top: 10px;
+    height:1400px;
+    width: 600px;
+    display:flex;
+    flex-direction:column;
+    background-color:rgba(255, 255, 255, 0.831);
+    align-items:center;
+    border-radius:12px;
+    row-gap: 20px;
+    
+}
+
+.container img{
+    height:22%;
+    width:90%;
+    border-radius:5px;
+    margin-top:25px;
+}
+
+.container h1{
+    font-size:32px;
+    font-weight:550;
+    font-family: Times New Roman;
+    /* align-content:start; */
+    margin-right: 220px;
+}
+
+.container p{
+    font-size:14px;
+    margin-left:28px;
+    color: rgb(112, 111, 111);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.preparation {
+    padding:10px;
+    height:11%;
+    width:90%;
+    border:none;
+    display:flex;
+    flex-direction:column;
+    background-color: rgb(247, 239, 247);
+    border-radius:10px;
+    
+}
+.preparation span{
+
+    font-size: 1.2em;
+    font-weight:500;
+    color: rgb(89, 5, 89);
+    margin-left:12px;
+
+}
+
+.preparation ul{
+    
+    padding: 12px;
+    color:grey;
+    font-size:1em;
+    /* font-weight: 100; */
+    margin-left:25px;
+    display:flex;
+    flex-direction:column;
+    row-gap:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   
+    
+}   
+
+.ingredients{
+height:12%;
+width:100%;
+
+}
+
+.ingredients span{
+    font-size:2em;
+    margin-left:30px;
+    padding-bottom:10px;
+    color:rgb(164, 80, 80);
+}
+
+.ingredients ul{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left:60px;
+    gap:5px;
+    padding-top:10px;
+    color:rgb(119, 116, 116);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container hr{
+    width:90%;
+    color:solid rgb(75, 72, 72);
+}
+
+.instructions{
+    height:18%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    
+    
+}
+
+.instructions span{
+    font-size:2em;
+    margin-left:30px;
+    padding-bottom:14px;
+    color:rgb(164, 80, 80);
+}
+
+.instructions ol{
+    display:flex;
+    flex-direction:column;
+    text-justify: distribute-all-lines;
+    row-gap: 10px;
+    margin-left:52px;
+    color:rgb(119, 116, 116);
+}
+
+.nutrition{
+    height:16%;
+    width:100%;
+
+}
+
+.nutrition span{
+    font-size:2em;
+    margin-left:30px;
+    padding-bottom:5px;
+    color:rgb(164, 80, 80);
+}
+
+.nutrition p{
+    padding:10px;
+    font-size:14px;
+    margin-left:14px;
+}
+
+.nutrition table{
+    width:80%;
+    margin:20px;
+    border-collapse:collapse;
+}
+
+th{
+    padding:8px;
+    text-align:left;
+    vertical-align: middle;
+    padding-left:50px;
+    
+}
