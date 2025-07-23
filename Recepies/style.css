@@ -166,10 +166,11 @@ width:100%;
     border-collapse:collapse;
 }
 
-th{
+th,td{
     padding:8px;
     text-align:left;
     vertical-align: middle;
     padding-left:50px;
+    border-bottom:1px solid black;
     
 }
